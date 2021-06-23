@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FDE702;
+
+}
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+ div.top-header{
+    padding: 5%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+    width: 50%;
+}
+div.input{
+    background-color: #FFF;
+    border: 1px solid gainsboro;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+
+div.submit{
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    color: #666;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+
+div#intro{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+
+}
+header nav {
+    display: none;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+div.burger-menu{
+    text-align: center;
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+
+}
+body{
+    background-color: #ebebeb;
+}
+
+div.banner{
+    width: 100%;
+}
+.titulares{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #666;
+    margin: 20px 0px;
+
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    
+    margin: 10px 0px;
+    background-color: #FFF;
+
+}
+main section article img{
+    background-position: center;
+    width: 100%;
+}
+.box-product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+    border-top: #ebebeb solid 2px;
+    padding: 15px;
+    font-family: 'Roboto';
+ }
+
+main section article i{
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+.box-product h3{
+    display: none;
+    padding-top: 10px;
+    color:#A8A8A8;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.precio{
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    width: 40%;
+    color: #333333;
+    
+}
+.descuen{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #39b54a;
+    width: 60%;
+    font-weight: lighter;
+    text-align: auto;
+    
+}
+
+footer{
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: #FFF;
+    text-align: center;
+    padding: 10%;
+}
+footer h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.footer-block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+div.credit-card i{
+    color: #0044AA;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: all 450ms;
+}
+div.credit-card i:hover{
+    color: #FDE702;
+    transform: scale(1.5,1.5);
+}
+div.gift i{
+    color: #0044AA;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: all 450ms;
+}
+div.gift i:hover{
+    color: #FDE702;
+    transform: scale(1.5,1.5);
+}
+div.security i{
+    color: #0044AA;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: all 450ms;
+}
+div.security i:hover{
+    color: #FDE702;
+    transform: scale(1.5,1.5);
+}
+.copyright {
+    font-family: 'Roboto';
+    font-size: 10px;
+    color: gray;
+    text-align: left;
+}
+
+
+@media (min-width: 426px){
+    
+    header nav{
+        display: block;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        padding-bottom: 20px;
+    }
+
+    header nav ul div#espacio{
+        width: 15%;
+    }
+
+    div.top-header{
+        padding: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header div.logo{
+        width: 30%;
+    }
+    div.form{
+        width: 30%;
+        justify-content: center;
+        align-self: center;
+    }
+    div#intro{
+        width: 40%;
+        margin-top: 0px;
+    }
+
+   
+    .burger-menu{
+        display: none;
+    }
+
+    main section article:hover {
+
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   
+       }
+   
+    main section article:hover > .box-product > h3{
+           
+           display: block;
+           
+          
+       }
+    main section article i{
+           transition: all 450ms;
+       }
+   
+    main section article:hover > .box-product > i{
+           transform: rotate(-0.25turn);
+   
+       }
+
+    main section div.productos1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main section div.productos2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        
+    }
+    main section article{
+        width: 45%;
+    }
+
+    .precio{
+        font-size: 1.2rem;
+    }
+    .descuen{
+        font-size: 0.8rem;
+    }
+    div.formulario-registro p input{
+        width: 300px;
+        height: 25px;
+    }
+    form.login input {
+        width: 500px;
+        height: 35px;
+    }
+    
+}
+
+@media (min-width: 769px){
+    main section article{
+        width: 20%;
+    }
+    
+    header nav ul{
+        font-size: 14px;
+    }
+
+    div.input{
+        font-size: 20px;
+    }
+    div#intro{
+        font-size: 20px;
+    }
+    footer{
+        padding: 30px;
+    }
+    .contenedor-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px;
+       }
+    div.formulario-registro p input{
+        width: 500px;
+        height: 30px;
+    }
+
+    form.login input {
+        width: 800px;
+        height: 35px;
+    }
+    
+   
+    
+    
+}
+
+/* register.html */
+div.formulario-registro{
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+    font-size: 1rem;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+    width: 90%;
+    text-align:justify
+}
+form {
+    margin-left: 15px;
+}
+div.formulario-registro p input{
+    border-radius: 5px;
+    border: solid 1px #A8A8A8;
+    font-family: "Roboto";
+    font-size: 0.8rem;
+    height: 25px;
+
+}
+
+div.formulario-registro p input.archivo{
+    border-radius: 5px;
+    border: solid 2px #A8A8A8;
+    font-family: "Roboto";
+    font-size: 0.7rem;
+
+}
+
+div.seleccion{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #666;
+   
+}
+
+div.formulario-registro form div button{
+    background-color: #3483FA;
+    font-family: 'Roboto';
+    color: #FFF;
+    width: 184.4px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #3483FA;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+/* login.html*/
+
+form.login{
+    
+    text-align: center;
+    margin-top: 30px;
+    
+
+
+}
+
+form.login input{
+    font-family: 'Roboto';
+    font-size: 0.7rem;
+    
+    margin-bottom: 30px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px gainsboro;
+    
+    
+}
+
+form.login div.boton-login button{
+    font-family: 'Roboto';
+    color: #FFF;
+    background-color: #3483FA;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #3483FA;
+    background-color: #3483FA;
+}
+
+form.login div.boton-login button:hover{
+    background-color: #0022AA;
+    border: solid 1px #0022AA; 
+
+}
